@@ -92,11 +92,21 @@ nav{
 
 }
 /*Media Queris*/
+@media (max-width: 500px){
+    #logo{
+        width: 7vw;
+    }
+}
+
+
 @media (max-width: 990px){
     p{
         font-size:90%;
     }
     
+    .skillsP{
+        font-size: 90%;
+        }
     .nav-label{
         padding-top: 15px;
         display: block;
@@ -121,7 +131,7 @@ nav{
     clip-path: circle(100% at center);
     }
     #logo{
-        width: 100px;
+        width: 13vw;
     }
 }
 
@@ -150,6 +160,8 @@ p{
     font-weight:bold;
     color: var(--azul);
 }
+
+
 
 .presentacion{
     font-weight: bolder;
@@ -209,7 +221,9 @@ p{
 
 
 
-
+.skillsP{
+    font-size: xx-large;
+}
 
 
 /*FOOTER*/
