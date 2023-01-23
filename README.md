@@ -1,2 +1,2 @@
-Este es mi portafolio de desarrolador
+Este es el primer portafolio que hice
 https://portafoliodanielgalvez.web.app/
