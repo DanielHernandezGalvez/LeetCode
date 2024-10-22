@@ -1,20 +1,22 @@
-class Solution:
-    def mergeAlternately(self, word1: str, word2: str) -> str:
+class Solution(object):
+    def mergeAlternately(self, word1, word2):
+        """
+        :type word1: str
+        :type word2: str
+        :rtype: str
+        """
+        
         merged_string = []
         i, j = 0, 0
-        
-        # Loop through both strings
+        # Loop through both strings while characters remain in both
         while i < len(word1) and j < len(word2):
             merged_string.append(word1[i])
             merged_string.append(word2[j])
             i += 1
             j += 1
-        
-        # Append any remaining characters from word1
+        # Add remaining characters from the longer string (if any)
         if i < len(word1):
             merged_string.append(word1[i:])
-        
-        # Append any remaining characters from word2
         if j < len(word2):
             merged_string.append(word2[j:])
         
